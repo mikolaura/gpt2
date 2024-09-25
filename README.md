@@ -3,9 +3,9 @@
 
 ## 1. Install dependencies
 ```bash
-pip install torch 
+pip install torch torchvision torchaudio
 # or you can install with gpu
-pip3 install torch --index-url https://download.pytorch.org/whl/cu118
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install numpy tiktoken tokenizers transformers dataclasses
 ```
 
